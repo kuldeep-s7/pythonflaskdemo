@@ -4,10 +4,11 @@ metadata:
   name: python-app
   description: Python app that displays time.
   annotations:
+    github.com/project-slug: python-app
     backstage.io/techdocs-ref: dir:.
-    jenkins.io/job-full-name: 'python-app'
+    jenkins.io/job-full-name: 'pythondemo'
 spec:
-  type: serviceAdd commentMore actions
+  type: service
   owner: developer
   lifecycle: experimental
   dependecies: 
