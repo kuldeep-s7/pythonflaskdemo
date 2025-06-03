@@ -4,9 +4,9 @@ metadata:
   name: python-app
   description: Python app that displays time.
   annotations:
-    github.com/project-slug: sahil7879/python-app
+    github.com/project-slug: kuldeep-s7/pythonflaskdemo
     backstage.io/techdocs-ref: dir:.
-    jenkins.io/job-full-name: sahil7879/python-app
+    jenkins.io/job-full-name: backstage-jenkins
 spec:
   type: service
   owner: developer
