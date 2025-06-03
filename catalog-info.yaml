@@ -1,12 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'backstage-jenkins'
-  description: 'a description'
+  name: python-app
+  description: Python app that displays time.
   annotations:
-    jenkins.io/job-full-name: 'backstage-jenkins,backstage-jenkins'
-
+    github.com/project-slug: sahil7879/python-app
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: sahil7879/python-app
 spec:
-  type: service
+  type: serviceAdd commentMore actions
+  owner: developer
   lifecycle: experimental
-  owner: kuldeep-s7
+  dependecies: 
