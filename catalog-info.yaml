@@ -1,6 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
+  name: 'backstage-jenkins'
+  description: 'a description'
   annotations:
-    'jenkins.io/job-full-name': departmentFoo:teamA/artistLookup-build
+    jenkins.io/job-full-name: 'backstage-jenkins,backstage-jenkins'
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: kuldeep-s7
