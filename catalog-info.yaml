@@ -1,14 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: python-app
-  description: Python app that displays time.
+  name: artist-lookup
   annotations:
-    github.com/project-slug: kuldeep-s7/pythonflaskdemo
-    backstage.io/techdocs-ref: dir:.
-    jenkins.io/job-full-name: 'backstage/backstage-jenkins'
-spec:
-  type: service
-  owner: developer
-  lifecycle: experimental
-  dependecies: 
+    'jenkins.io/job-full-name': departmentFoo:teamA/artistLookup-build
